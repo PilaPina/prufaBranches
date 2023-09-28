@@ -5,3 +5,10 @@
     font-size: 50px;
     background-color: rgba(242, 182, 215, 0.478);
 }
+
+#button-container {
+    border-radius: 12%;
+    background-color: blue ;
+    border-style: dotted;
+    color: white;
+}
