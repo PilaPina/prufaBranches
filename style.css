@@ -7,18 +7,25 @@
 }
 
 .navigationbar {
-font-size: 30px;
-color: rgb(239, 117, 137)   ;
-font-family: monospace;
-text-align: left;
-text-decoration: underline;
-padding-left: 0%;
-padding-right: 0%;
+    font-size: 30px;
+    color: rgb(239, 117, 137)   ;
+    font-family: monospace;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
-#button-container {
-    border-radius: 12%;
-    background-color: blue ;
-    border-style: dotted;
-    color: white;
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button {
+    color: rgba(255, 255, 255, 0.901);
+    border: none;
+    cursor: pointer;
+    background-color: rgba(240, 165, 243, 0.922);
+    border-radius: 20px;
 }
