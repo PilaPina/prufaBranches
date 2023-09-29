@@ -25,6 +25,18 @@
     justify-content: center;
 }
 
+.hand {
+display: flex;
+justify-content: center;
+max-height: 300px;
+}
+
+.handpic {
+    width: 150px;
+    border-radius: 1 rem;
+
+}
+
 .button-container {
     display: flex;
     flex-direction: row;
