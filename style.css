@@ -6,6 +6,7 @@
     background-color: rgba(242, 182, 215, 0.478);
 }
 
+
 button {
     border: none; 
     color: rgba(97, 19, 85, 0.774); 
@@ -24,4 +25,16 @@ button {
     display: flex;
     flex-direction: row;
     gap: 20px;
+
+.navigationbar {
+font-size: 20px;
+color: pink   ;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#button-container {
+    border-radius: 12%;
+    background-color: blue ;
+    border-style: dotted;
+    color: white;
 }
