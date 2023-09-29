@@ -6,9 +6,22 @@
     background-color: rgba(242, 182, 215, 0.478);
 }
 
-#button-container {
-    border-radius: 12%;
-    background-color: blue ;
-    border-style: dotted;
-    color: white;
+button {
+    border: none; 
+    color: rgba(97, 19, 85, 0.774); 
+    background-color: rgba(212, 151, 231, 0.452);
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
