@@ -17,6 +17,14 @@
     justify-content:space-evenly;
 }
 
+.me {
+    font-size: 10rem;
+    background-color: blueviolet;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
 .button-container {
     display: flex;
     flex-direction: row;
