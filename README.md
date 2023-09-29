@@ -3,7 +3,7 @@
 Notes on how to make a branch and push the changes
 <br>
 - git branch (to check at what branch you are)
-- git checkout -b nameofbranch (this makes a new branch  - It´s good practice to keep the naming descriptive of the work you´re doing or where in the code you´re working on, f.ex. 'header')
+- git checkout -b nameofbranch (this makes a new branch and moves you to that branch - It´s good practice to keep the naming descriptive of the work you´re doing or where in the code you´re working on, f.ex. 'header')
 - make changes to the code -  (if you create a new folder though please let everyone know and push it when you've created it. If instances of the same folder is being created on two different branches with different files in them it will result in a conflict.)
 - git add .
 - git commit -m "I added something to something"
