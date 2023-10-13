@@ -8,7 +8,7 @@ Notes on how to make a branch and push the changes
 - git add .
 - git commit -m "I added something to something"
 - git push origin nameofbranch
-- Github will show a pull request that you have to click on, comment on the work you've done (f.ex. take a look at what awesome work I've done in the header) and then submit the pull request. Make sure not to merge it.
+- Github will show a pull request on the account that made the push, that you have to click on, comment on the work you've done (f.ex. take a look at what awesome work I've done in the header) and then submit the pull request. Make sure not to merge it.
 - Then another programmer takes a look at that pull request, reviews the code, comments on it and askes for changes or just approves it and merges it with main. 
 <br>
 <br>
